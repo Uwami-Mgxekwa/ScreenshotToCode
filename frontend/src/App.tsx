@@ -348,7 +348,17 @@ function App() {
       <div className="lg:fixed lg:inset-y-0 lg:z-40 lg:flex lg:w-96 lg:flex-col">
         <div className="flex grow flex-col gap-y-2 overflow-y-auto border-r border-gray-200 bg-white px-6 dark:bg-zinc-950 dark:text-white">
           <div className="flex items-center justify-between mt-10 mb-2">
-            <h1 className="text-2xl ">Screenshot to Code</h1>
+            <div className="flex flex-col">
+              <h1 className="text-2xl ">Screenshot to Code</h1>
+              <a 
+                href="https://brelinx.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-xs text-blue-600 dark:text-blue-400 hover:underline mt-1"
+              >
+                Powered by brelinx.com
+              </a>
+            </div>
             <SettingsDialog settings={settings} setSettings={setSettings} />
           </div>
 
@@ -573,6 +583,21 @@ function App() {
           </div>
         )}
       </main>
+      
+      {/* Footer with Brelinx branding */}
+      <footer className="lg:pl-96 py-4 px-6 border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-zinc-950">
+        <div className="flex items-center justify-center gap-x-2 text-sm text-gray-600 dark:text-gray-400">
+          <span>Powered by</span>
+          <a 
+            href="https://brelinx.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-blue-600 dark:text-blue-400 hover:underline font-medium"
+          >
+            brelinx.com
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -86,4 +86,10 @@ You can also run the hosted version with your own OpenAI key (must have GPT‑4 
 
 ---
 
+## 🎨 Branding
+
+This project is powered by **[brelinx.com](https://brelinx.com)** - Your trusted partner for innovative web solutions.
+
+---
+
 **GitHub Repository:** [https://github.com/Uwami-Mgxekwa/](https://github.com/Uwami-Mgxekwa/)
